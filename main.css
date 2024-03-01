@@ -7,8 +7,9 @@ body {
 
 .container {
   padding: 0 100px;
-  margin-left: 0px;
+  margin-left: 150px;
   text-align: left;
+
 }
 
 a {
@@ -70,15 +71,21 @@ a:hover {
 }
 .shadowbox {
   color: #fff;
-  width: 40em;
+  
   border: 1px solid #333;
   box-shadow: 2px 2px 3px #444;
   padding: 4px 6px;
   border: 1px solid rgb(227, 217, 217);
   padding: 10px;
-  position: fixed;
-  top: 100px;
-  right: 300px;
- }
+  max-width: 600;
+  position: absolute;
+  top: 50px;
+  padding-left:30px;
+  padding-right:30px;
+  margin-left: 350px;
+  margin-right: 200px;
+
+  
+}
  .big-text { font-size: 24px; }
  
